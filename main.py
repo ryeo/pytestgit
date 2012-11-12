@@ -3,7 +3,7 @@ from google.appengine.ext import webapp
 
 class MainHandler(webapp.RequestHandler):
     def get(self):
-        self.response.out.write('Helldddddddddddo world!')
+        self.response.out.write('Hellddddddddddddddo world!')
 
 
 app = webapp.WSGIApplication([('/', MainHandler)],
